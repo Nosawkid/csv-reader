@@ -39,7 +39,7 @@ go version
 **Clone and run:**
 
 ```bash
-git clone https://github.com/yourusername/csv-log-analyzer.git
+git clone https://github.com/Nosawkid/csv-reader
 cd csv-log-analyzer
 go run main.go --file logs.csv --severity ERROR --from 2024-01-01 --to 2024-01-03
 ```
