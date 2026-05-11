@@ -1,0 +1,52 @@
+timestamp,severity,source,message
+2024-01-01 08:12:34,INFO,auth-service,User login successful for user_id=1042
+2024-01-01 08:15:21,INFO,api-gateway,GET /api/v1/products 200 OK latency=45ms
+2024-01-01 08:17:03,WARN,db-service,Slow query detected: 1.2s on table=orders
+2024-01-01 08:21:45,ERROR,payment-service,Stripe API timeout after 30s for order_id=8821
+2024-01-01 08:23:10,INFO,auth-service,Token refreshed for user_id=2201
+2024-01-01 08:30:55,INFO,api-gateway,POST /api/v1/orders 201 Created latency=112ms
+2024-01-01 08:45:00,ERROR,db-service,Connection pool exhausted: max=20 active=20
+2024-01-01 09:00:12,INFO,auth-service,User login successful for user_id=3371
+2024-01-01 09:02:47,WARN,api-gateway,Rate limit approaching for ip=192.168.1.55 requests=480/500
+2024-01-01 09:10:33,INFO,payment-service,Payment processed successfully order_id=8822 amount=59.99
+2024-01-01 09:15:08,ERROR,auth-service,Invalid token signature for user_id=9910
+2024-01-01 09:22:41,INFO,db-service,Index rebuild completed table=products duration=3.4s
+2024-01-01 09:31:19,WARN,payment-service,Retry attempt 2/3 for order_id=8823
+2024-01-01 09:45:00,INFO,api-gateway,GET /api/v1/users 200 OK latency=33ms
+2024-01-01 10:00:05,ERROR,db-service,Deadlock detected on table=inventory tx_id=4421
+2024-01-01 10:05:22,INFO,auth-service,Password reset email sent to user_id=1108
+2024-01-01 10:12:37,WARN,api-gateway,Deprecated endpoint called: /api/v0/orders by ip=10.0.0.8
+2024-01-01 10:20:14,INFO,payment-service,Refund issued order_id=8800 amount=29.99
+2024-01-01 10:35:49,ERROR,payment-service,Insufficient funds for order_id=8824 user_id=5541
+2024-01-01 10:50:03,INFO,db-service,Backup completed successfully size=2.1GB duration=18m
+2024-01-02 07:55:11,INFO,auth-service,User login successful for user_id=7723
+2024-01-02 08:03:29,WARN,db-service,Disk usage at 78% on volume=/data
+2024-01-02 08:14:00,INFO,api-gateway,GET /api/v1/orders 200 OK latency=67ms
+2024-01-02 08:22:45,ERROR,auth-service,Brute force detected: 50 failed logins from ip=203.0.113.42
+2024-01-02 08:30:17,INFO,payment-service,Payment processed successfully order_id=8830 amount=149.00
+2024-01-02 08:41:53,WARN,api-gateway,Response time degraded p99=820ms threshold=500ms
+2024-01-02 08:55:00,INFO,db-service,Vacuum completed table=logs rows_removed=142300
+2024-01-02 09:10:28,ERROR,db-service,Replication lag exceeded 30s replica=db-replica-2
+2024-01-02 09:20:14,INFO,auth-service,New user registered user_id=9001
+2024-01-02 09:33:41,WARN,payment-service,Webhook delivery failed attempt=1 order_id=8831
+2024-01-02 09:45:00,INFO,api-gateway,POST /api/v1/users 201 Created latency=88ms
+2024-01-02 10:00:33,ERROR,payment-service,Fraud risk score exceeded threshold score=0.91 order_id=8832
+2024-01-02 10:12:07,INFO,db-service,Cache warmed up keys=48200 duration=4.1s
+2024-01-02 10:25:50,WARN,auth-service,Session token nearing expiry user_id=1042 expires_in=300s
+2024-01-02 10:40:19,INFO,payment-service,Subscription renewed user_id=3371 plan=pro
+2024-01-02 10:55:02,ERROR,api-gateway,Upstream timeout origin=product-service path=/api/v1/products
+2024-01-03 08:00:00,INFO,auth-service,Daily session cleanup completed removed=312
+2024-01-03 08:10:44,WARN,db-service,Long-running transaction detected tx_id=5512 duration=45s
+2024-01-03 08:22:11,INFO,api-gateway,GET /api/v1/dashboard 200 OK latency=91ms
+2024-01-03 08:35:29,ERROR,db-service,Out of disk space on volume=/data/logs
+2024-01-03 08:44:00,INFO,payment-service,Payment processed successfully order_id=8840 amount=9.99
+2024-01-03 08:55:17,WARN,api-gateway,SSL certificate expires in 14 days domain=api.example.com
+2024-01-03 09:05:33,INFO,auth-service,MFA enabled for user_id=2201
+2024-01-03 09:18:42,ERROR,auth-service,OAuth provider unreachable provider=google timeout=10s
+2024-01-03 09:30:00,INFO,db-service,Scheduled maintenance window started
+2024-01-03 09:45:55,WARN,payment-service,Currency conversion rate stale age=3600s
+2024-01-03 10:00:09,INFO,api-gateway,DELETE /api/v1/users/9001 204 No Content latency=55ms
+2024-01-03 10:10:28,ERROR,payment-service,Duplicate transaction detected order_id=8841 original_id=8838
+2024-01-03 10:25:14,INFO,db-service,Scheduled maintenance window ended duration=55m
+2024-01-03 10:40:37,WARN,auth-service,Unusual login location user_id=7723 country=RU
+2024-01-03 10:55:00,INFO,api-gateway,GET /api/v1/analytics 200 OK latency=204ms
